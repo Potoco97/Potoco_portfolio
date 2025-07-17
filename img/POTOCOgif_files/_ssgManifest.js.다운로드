@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fstatic\u002F[lang]\u002F[theme]\u002F[device]\u002F[browser]\u002Fdesign","\u002Fversion","\u002Fwebview\u002F[lang]\u002FsignIn","\u002Fwebview\u002Fmain","\u002Fwebview\u002FsignIn","\u002Fwebview\u002Fzendesk"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
