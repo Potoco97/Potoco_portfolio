@@ -381,21 +381,72 @@ span:hover{
 }
 
 /* --------------슬라이더(4)------------- */
-.Skills{
+.Skills {
     width: 80%;
-    height: 95%;
+    height: 90%;
     display: flex;
+    align-items: center;
     border: solid none;
-    border-radius: 40px 40px 40px 40px;
+    border-radius: 40px;
     margin-left: 200px;
     background-color: #929292;
+    box-shadow: 0 0 30px 10px #dfdfdf;
 
-    .Skillsbox{
+    .Skillsbox {
         width: 50%;
         height: 100%;
         background-color: #ffcaca;
         border: solid none;
-        border-radius: 40px 40px 40px 40px;
+        border-radius: 40px;
+
+        .Skills-video {
+            width: 100%;
+            height: 100%;
+        }
+
+        #Skills-Video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: solid none;
+            border-radius: 40px;
+        }
+    }
+    .Skillswindow{
+        width: 50%;
+        height: 100%;
+        overflow-y: scroll;
+        
+        .Skillsdown{
+            display: flex;
+            align-items: center;
+        h1{
+            font-size: 30px;
+            
+        }
+        img{
+            width: 60px;
+            height: 70px;
+            border: solid none;
+            border-radius: 10px;
+            margin-left: 8%;
+            margin-top: 2%;
+            margin-right: 2%;
+        }
+        h2{
+            font-size: 20px;
+            margin-top: 5%;
+            text-align: left;
+        }
+        p{
+            margin-top: 1%;
+            font-size: 15px;
+        }
+        .Skillsdtoo{
+            text-align: left;
+            width: 50%;
+        }
+    }
     }
 }
 
@@ -431,9 +482,4 @@ span:hover{
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-.Skills-video{
-    width: 100%;
-    height: 100%;
 }
